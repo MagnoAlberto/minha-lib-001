@@ -1,0 +1,11 @@
+{
+    "name": "empresa/minha-lib-001",
+    "description": "Uma biblioteca PHP interna.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Empresa\\MinhaLib\\": "src/"
+        }
+    },
+    "require": {}
+}

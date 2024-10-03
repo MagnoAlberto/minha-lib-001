@@ -1,0 +1,56 @@
+# 2024-10-02 10:44:39 | .gitignore
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+
+# PHP
+vendor/
+composer.lock
+
+# Java
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Configurações locais
+.env
+*.local
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos temporários
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Build e distribuição
+lib/
+dist/
+build/
+out/
+
+# Testes e cobertura
+coverage/
+.phpunit.result.cache
+
+# Outros
+*.swp
+*.class
+*.dll
+*.exe
